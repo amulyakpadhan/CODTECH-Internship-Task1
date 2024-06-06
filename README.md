@@ -1,5 +1,10 @@
 # Text-to-Speech Conversion Application
 
+Name: Amulya Kumar Padhan\
+Company: CODTECH IT SOLUTIONS\
+Domain: Machine learning\
+Duration: June 1st to June 30th
+
 ## Overview
 This project aims to develop a text-to-speech conversion application that allows users to input text and generate corresponding audio output. The application should support multiple languages and voices, providing users with options to customize the speech synthesis according to their preferences.
 
