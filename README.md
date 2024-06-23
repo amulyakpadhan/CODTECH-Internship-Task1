@@ -8,6 +8,9 @@ Duration: June 1st to June 30th
 ## Overview
 This project aims to develop a text-to-speech conversion application that allows users to input text and generate corresponding audio output. The application should support multiple languages and voices, providing users with options to customize the speech synthesis according to their preferences.
 
+## Live Demo
+The project is deployed and can be accessed at: [Text-to-Speech Converter](https://ttsconverter.pythonanywhere.com/)
+
 
 ## Features
 - Input text for speech synthesis.
@@ -19,7 +22,7 @@ This project aims to develop a text-to-speech conversion application that allows
 ## Technologies Used
 - Python 3.x
 - Django 3.x or 4.x
-- VoiceRSS API for text-to-speech conversion
+- API for text-to-speech conversion
 - HTML/CSS (Bootstrap for styling)
 - JavaScript (jQuery)
 - Git (for version control)
@@ -89,7 +92,7 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ## Acknowledgments
 - Django: The web framework used in this project.
-- VoiceRSS API: API for text-to-speech conversion
+- Text-to-Voice API: API for text-to-speech conversion
 
 ## 🚀 About Me
 I'm Amulya Kumar Padhan, a computer science student specializing in artificial intelligence and web development. This project is a demonstration of my skills and expertise in building web-based applications that incorporate advanced technologies like machine learning, deep learning, web development etc.
