@@ -13,10 +13,9 @@ def index(request):
             language_code = form.cleaned_data['language_code']
             voice_code = form.cleaned_data['voice_code']
 
-            # Define API request parameters
             url = "http://api.voicerss.org/"
             params = {
-                'key': 'c6c26ba0732446648551a35dec8eb712',  # Replace with your actual API key
+                'key': settings.API_KEY,  
                 'hl': language_code,
                 'c': 'MP3',
                 'src': text,

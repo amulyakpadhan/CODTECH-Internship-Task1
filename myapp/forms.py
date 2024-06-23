@@ -158,13 +158,6 @@ VOICE_CHOICES = [
 
 
 
-# class TextToSpeechForm(forms.Form):
-#     text = forms.CharField(widget=forms.Textarea, label="Enter Text")
-#     language_code = forms.ChoiceField(choices=LANGUAGE_CHOICES, label="Language")
-#     voice_code = forms.ChoiceField(choices=VOICE_CHOICES, label="Voice")
-
-
-
 class TextToSpeechForm(forms.Form):
     text = forms.CharField(
         label='Text',
