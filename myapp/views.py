@@ -13,7 +13,7 @@ def index(request):
             language_code = form.cleaned_data['language_code']
             voice_code = form.cleaned_data['voice_code']
 
-            url = "http://api.voicerss.org/"
+            url = settings.URL
             params = {
                 'key': settings.API_KEY,  
                 'hl': language_code,

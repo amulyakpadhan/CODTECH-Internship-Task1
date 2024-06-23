@@ -131,6 +131,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 
 from dotenv import load_dotenv
+
 # Load .env file
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
+URL = os.getenv('URL')
